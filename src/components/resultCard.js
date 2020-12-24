@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './common.css';
 import image from './avatar.png';
 
@@ -27,7 +27,7 @@ const ResultCard = (props) => {
             {val.name}
           </div>
         </div>
-        <img src={image} height={48} width={48} />
+        <img src={image} height={48} width={48} alt="profilePic" />
       </div>
       <div>
         <span

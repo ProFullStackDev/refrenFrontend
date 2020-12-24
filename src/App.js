@@ -78,7 +78,7 @@ function App() {
       {console.log(cursor)}
       <header className="App-Container" style={{ paddingTop: 20 }}>
         <div className="inputContainer">
-          <img src={image} height={20} width={20} alt="image" />
+          <img src={image} height={20} width={20} alt="profileImage" />
           <input
             className="inputText"
             onChange={(e) => {
