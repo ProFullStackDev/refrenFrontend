@@ -6,7 +6,7 @@ const port = process.env.PORT || 8080;
 
 const app = express();
 
-const publicPath = path.join(__dirname, '.', 'dist');
+const publicPath = path.join(__dirname, '.', 'build');
 console.log(path.join(__dirname, 'dist', 'index.html'));
 app.use(express.static(publicPath));
 app.get('/*', function(req, res) {
