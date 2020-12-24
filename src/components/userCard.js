@@ -4,6 +4,7 @@ import './common.css';
 const UserCard = (props) => {
   const { val, index, className, onHover, searchText, onSelect } = props;
 
+  // method to render searched text in blue color that matches..
   const searchMatchText = (txt) => {
     const match =
       txt.substring(0, searchText.length).toLowerCase() ===
@@ -58,6 +59,7 @@ const UserCard = (props) => {
         style={{ color: '#5e6267', fontWeight: '400' }}
       >
         Items
+        {/* map user items */}
         {val.items.map((element, ind) => {
           return (
             <span

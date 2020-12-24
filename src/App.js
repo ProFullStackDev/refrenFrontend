@@ -32,6 +32,7 @@ function App() {
     refInput.current.focus();
   }, []);
 
+  // api call to search for users with the search text
   const SearchApiCall = () => {
     ApiClient.get(`/user/userDetails?searchData=${search}`)
       .then((res) => {
@@ -43,6 +44,7 @@ function App() {
       });
   };
 
+  // on keyboard enter and click selects the user card to render as result
   const onSelect = () => {
     setSelectedUser([searchData[cursor]]);
     setShowSuggestionList(false);
@@ -50,6 +52,7 @@ function App() {
     setSearch('');
   };
 
+  // handling key up, key down and enter fron input element
   const handleKeyDown = (e) => {
     if (e.keyCode === 13 && cursor === -1) {
       setSelectedUser(searchData);
@@ -75,7 +78,6 @@ function App() {
 
   return (
     <div className="App">
-      {console.log(cursor)}
       <header className="App-Container" style={{ paddingTop: 20 }}>
         <div className="inputContainer">
           <img src={image} height={20} width={20} alt="profileImage" />

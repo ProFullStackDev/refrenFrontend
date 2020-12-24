@@ -71,6 +71,7 @@ const ResultCard = (props) => {
           {' '}
           Items:
         </span>
+        {/* map user items */}
         {val.items.map((element, ind) => {
           return (
             <span
