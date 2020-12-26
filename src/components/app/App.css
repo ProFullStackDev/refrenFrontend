@@ -10,8 +10,6 @@
   color: white;
   overflow-y: hidden;
 }
-
-
 .inputText{
   height: 32px;
   width: 19.5rem; 
@@ -47,15 +45,7 @@
   flex-direction: column;
   
 }
-.search-results{
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-  width: 22rem;
-  
-  margin-top: 1rem;
-  border-radius: 5px;
-}
+
 
 .span-list-header{
   display: flex;
@@ -70,4 +60,15 @@
   font-size: 12px; 
   font-weight: 300;
   padding: 1.3rem;
+}
+
+.notFoundDiv{
+  color: #4e4e4e;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 15px;
+  border-bottom-width: 0.1;
+  border-color: #f0f0f0;
+  border-top-width: 0.1;
+  border-style:solid;
 }

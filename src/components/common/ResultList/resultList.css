@@ -1,0 +1,9 @@
+.search-results{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    
+    margin-top: 1rem;
+    border-radius: 5px;
+  }

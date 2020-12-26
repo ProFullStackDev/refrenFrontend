@@ -1,0 +1,51 @@
+
+.listItem-card{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color:black;
+    font-size: calc(8px + 1vmin);
+    padding: 1.3rem;
+    border-bottom-color: #f0f0f0;
+    border-bottom-style: solid
+  }
+
+  .active{
+    background-color: #eae9cd;
+  }
+
+  .itemsList{
+    flex-direction: row;
+    display: flex;
+    margin-top: 0.4rem;
+    font-size: 12px;
+    color: #5e6267;
+    font-weight: 400;
+  }
+
+  .cardContent{
+    font-weight: 400;
+    font-size: 13px;
+    color:#5e6267;
+    padding-top: 4;
+  }
+
+  .spanItem{
+     
+    font-weight: 300; 
+    letter-spacing: 0.3;
+  }
+
+  .divNameContent{
+    color: #5e6267;
+    font-weight: 500;
+    font-style: italic;
+    padding-top: 2;
+  }
+
+  .divIDContent{
+   
+    font-weight: 700; 
+    color: #4e4e4e
+  }
+

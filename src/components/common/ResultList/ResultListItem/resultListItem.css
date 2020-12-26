@@ -1,0 +1,45 @@
+.listItem-Resultcard{
+    display: flex;
+    flex-direction: column;
+    font-size: calc(8px + 1vmin);
+    padding: 1.3rem;
+    background-color: white;
+    width: '100%';
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    color: #5e6267
+}
+.headerContent{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.bodyContent{
+    font-weight: 400;
+    letter-spacing: 0.4;
+    font-size: 14px;
+}
+.itemContent{
+    font-weight: 300;
+    letter-spacing: 0.2;
+    font-size: 14px;
+}
+.spacing{
+    margin-left:10px;
+}
+
+.nameDiv{
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: 0.3;
+}
+
+.idContent{
+   
+        font-weight: 500;
+        letter-spacing: 0.3;
+   
+}
+
